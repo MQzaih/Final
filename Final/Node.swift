@@ -7,3 +7,16 @@
 //
 
 import Foundation
+class Node {
+    let id = Int.random(in: 1..<1000)
+    let description : String?
+   var check:String {
+        if description != nil {
+            return description!
+        }
+        return description!
+    }
+    init(titleOfJob:String) {
+description = titleOfJob
+    }
+}
