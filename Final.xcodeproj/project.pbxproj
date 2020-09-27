@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		06C8194625206D9D005CF4D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8194525206D9D005CF4D7 /* main.swift */; };
 		06C8194D25206DC1005CF4D7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8194C25206DC1005CF4D7 /* Node.swift */; };
+		06C81953252074E2005CF4D7 /* NewStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C81952252074E2005CF4D7 /* NewStack.swift */; };
+		06C8195525207511005CF4D7 /* NewQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8195425207511005CF4D7 /* NewQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		06C8194225206D9D005CF4D7 /* Final */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Final; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C8194525206D9D005CF4D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		06C8194C25206DC1005CF4D7 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		06C81952252074E2005CF4D7 /* NewStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStack.swift; sourceTree = "<group>"; };
+		06C8195425207511005CF4D7 /* NewQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				06C8194525206D9D005CF4D7 /* main.swift */,
 				06C8194C25206DC1005CF4D7 /* Node.swift */,
+				06C81952252074E2005CF4D7 /* NewStack.swift */,
+				06C8195425207511005CF4D7 /* NewQueue.swift */,
 			);
 			path = Final;
 			sourceTree = "<group>";
@@ -123,8 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C8195525207511005CF4D7 /* NewQueue.swift in Sources */,
 				06C8194625206D9D005CF4D7 /* main.swift in Sources */,
 				06C8194D25206DC1005CF4D7 /* Node.swift in Sources */,
+				06C81953252074E2005CF4D7 /* NewStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
